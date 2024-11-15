@@ -78,6 +78,9 @@
             height: auto;
             margin: 0 auto;
         }
-
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #6F4E37;
+        }
 
         
