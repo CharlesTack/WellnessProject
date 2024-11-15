@@ -1,4 +1,4 @@
-.navbar,
+        .navbar,
         .navbar-nav .nav-link {
             color: #3B2F2F;
         }
@@ -72,3 +72,12 @@
             margin-top: 2rem;
             margin-bottom: 2rem;
         }
+
+        .team-img {
+            width: 25%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+
+        
