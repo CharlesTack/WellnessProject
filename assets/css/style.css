@@ -82,5 +82,19 @@
         .carousel-control-next-icon {
             background-color: #6F4E37;
         }
-
+        .custom-btn {
+            width: auto;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+        }
         
+        .table th,
+        .table td {
+            border: none;
+            padding: 8px;
+            text-align: left;
+        }
