@@ -1,0 +1,70 @@
+.navbar,
+        .navbar-nav .nav-link {
+            color: #3B2F2F;
+        }
+
+        .navbar-brand {
+            color: #3B2F2F;
+        }
+
+        .navbar-nav .nav-link.active {
+            color: #3B2F2F;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/wellness-hero.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            color: #FFEBD4;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .hero h1 {
+            font-family: 'Handlee', cursive;
+        }
+
+        .btn-light {
+            color: #3B2F2F;
+        }
+
+        .services {
+            font-family: 'Handlee', cursive;
+        }
+
+        .services .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .wellness-tips {
+            font-family: 'Handlee', cursive;
+        }
+
+        .testimonials {
+            font-family: 'Handlee', cursive;
+        }
+
+        .testimonials img {
+            border-radius: 50%;
+        }
+
+        .footer {
+            background-color: #6F4E37;
+            color: #FFEBD4;
+            padding: 10px 0;
+        }
+
+        .footer a {
+            color: #FFEBD4;
+            margin-left: 10px;
+        }
+
+        .main-content {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
