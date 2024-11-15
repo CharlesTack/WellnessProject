@@ -1,0 +1,9 @@
+.navbar, .navbar-nav .nav-link {
+    color: #3B2F2F;
+}
+.navbar-brand {
+    color: #3B2F2F;
+}
+.navbar-nav .nav-link.active {
+    color: #3B2F2F;
+}
