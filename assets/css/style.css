@@ -19,7 +19,7 @@
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/wellness-hero.jpg') no-repeat center center;
             background-size: cover;
-            height: 100vh;
+            height: 30vh;
             color: #FFEBD4;
             text-align: center;
             display: flex;
@@ -27,6 +27,12 @@
             justify-content: center;
             flex-direction: column;
         }
+
+        /* .hero img {
+            max-height: 50px;
+            width: 100%;
+            object-fit: cover;
+        } */
 
         .hero h1 {
             font-family: 'Handlee', cursive;
@@ -82,8 +88,23 @@
         .carousel-control-next-icon {
             background-color: #6F4E37;
         }
-        .custom-btn {
-            width: auto;
+        .custom-btn-yoga {
+            width: 11vw;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .custom-btn-na {
+            width: 14vw;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .custom-btn-mh {
+            width: 16vw;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .custom-btn-wellness {
+            width: 12vw;
             display: inline-block;
             white-space: nowrap;
         }
