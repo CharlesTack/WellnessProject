@@ -1,4 +1,4 @@
-        .navbar,
+.navbar,
         .navbar-nav .nav-link {
             color: #3B2F2F;
         }
@@ -88,26 +88,7 @@
         .carousel-control-next-icon {
             background-color: #6F4E37;
         }
-        .custom-btn-yoga {
-            width: 11vw;
-            display: inline-block;
-            white-space: nowrap;
-        }
-        .custom-btn-na {
-            width: 14vw;
-            display: inline-block;
-            white-space: nowrap;
-        }
-        .custom-btn-mh {
-            width: 16vw;
-            display: inline-block;
-            white-space: nowrap;
-        }
-        .custom-btn-wellness {
-            width: 12vw;
-            display: inline-block;
-            white-space: nowrap;
-        }
+        
         .table {
             border-collapse: collapse;
             width: 100%;
@@ -118,4 +99,24 @@
             border: none;
             padding: 8px;
             text-align: left;
+        }
+
+        .table tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        .table tbody tr.monday,
+        .table tbody tr.wednesday {
+            background-color: #f2f2f2;
+        }
+
+        .custom-btn {
+            width: auto;
+            display: inline-block;
+            white-space: nowrap;
+            text-align: center;
         }
